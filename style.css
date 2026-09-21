@@ -59,11 +59,16 @@ h3 {
     font-weight: 800;
     font-style: normal;
     font-size: 30px;
-    text-decoration: underline;
-    text-decoration-color: #3b82e8;
-    text-decoration-thickness: 2px;
-    text-underline-offset: 10px;
     margin-bottom: 30px;
+}
+
+h3::after {
+    content: "";
+    display: block;
+    width: 2ch;
+    height: 4px;
+    margin-top: 5px;
+    background-color: #3b82e8;
 }
 
 span {
