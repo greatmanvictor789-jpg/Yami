@@ -563,8 +563,7 @@ button {
         border-bottom: 0;
     }
 
-    .links:has(+ .nav-cta + .menu-toggle.is-open),
-    .menu-toggle.is-open ~ .links {
+    .links.is-open {
         opacity: 1;
         visibility: visible;
         transform: translateY(0);
