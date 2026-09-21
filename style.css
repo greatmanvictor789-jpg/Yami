@@ -218,6 +218,7 @@ button {
 
 .main {
     overflow: hidden;
+    overflow: #1d283c;
     padding-bottom: 60px;
 }
 
@@ -282,6 +283,11 @@ button {
 
 .socials a:nth-child(3) img {
     width: 24px;
+    height: 24px;
+}
+
+.socials a:nth-child(4) img {
+    width:24px;
     height: 24px;
 }
 
@@ -513,6 +519,11 @@ button {
 }
 
 .footer-icons a:nth-child(3) img {
+    width: 24px;
+    height: 24px;
+}
+
+.footer-icons a:nth-child(4) img {
     width: 24px;
     height: 24px;
 }
