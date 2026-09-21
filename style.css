@@ -444,6 +444,10 @@ button {
     max-width: 480px;
 }
 
+footer {
+    background-color: #1d283c;
+}
+
 .footer {
     background-color: #1d283c;
     padding: 40px 0;
