@@ -157,6 +157,10 @@ span-4 {
     text-underline-offset: 3px;
 }
 
+.nav-cta:hover {
+    background: #1f4fc4;
+}
+
 button {
     color: white;
     background: #3b82e8;
@@ -213,7 +217,7 @@ button {
 }
 
 .main {
-    overflow: visible;
+    overflow: hidden;
     padding-bottom: 60px;
 }
 
@@ -252,13 +256,33 @@ button {
 
 .socials {
     display: flex;
+    align-items: center;
     gap: 16px;
 }
 
+.socials a {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .socials img {
-    width: 26px;
-    height: 26px;
+    width: 30px;
+    height: 30px;
     display: block;
+    object-fit: contain;
+}
+
+.socials a:nth-child(2) img {
+    width: 34px;
+    height: 34px;
+}
+
+.socials a:nth-child(3) img {
+    width: 24px;
+    height: 24px;
 }
 
 .about-row {
