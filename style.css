@@ -492,9 +492,29 @@ button {
     gap: 14px;
 }
 
+.footer-icons a {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .footer-icons img {
-    width: 26px;
-    height: 26px;
+    width: 30px;
+    height: 30px;
+    display: block;
+    object-fit: contain;
+}
+
+.footer-icons a:nth-child(2) img {
+    width: 34px;
+    height: 34px;
+}
+
+.footer-icons a:nth-child(3) img {
+    width: 24px;
+    height: 24px;
 }
 
 /* ===== Responsive ===== */
