@@ -9,6 +9,14 @@ body {
     height: 100%;
 }
 
+html {
+    background-color: #ffffff;
+}
+
+html.footer-overscroll {
+    background-color: #1d283c;
+}
+
 body {
     background-color: #ffffff;
     font-family: "Poppins", sans-serif;
