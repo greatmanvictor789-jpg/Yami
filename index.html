@@ -8,20 +8,27 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <nav>
         <h2>Victor<span>.dev</span></h2>
-        <div class="links">
+        <div class="links" id="site-menu">
             <a href="#home-section">Home</a>
             <a href="#about-section">About</a>
             <a href="#project-section">Projects</a>
             <a href="#skill-section">Skills</a>
             <a href="#contact-section">Contact</a>
         </div>
-        <button>Let's Talk</button>
+        <button class="nav-cta">Let's Talk</button>
+        <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-controls="site-menu"
+            aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
     </nav>
 
     <div class="container">
@@ -158,6 +165,7 @@
             </div>
         </div>
     </footer>
+    <script src="script.js"></script>
 
 </body>
 
