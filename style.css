@@ -13,7 +13,7 @@ html {
     background-color: #ffffff;
 }
 
-html.footer-overscroll {
+.parent {
     background-color: #1d283c;
 }
 
@@ -219,6 +219,7 @@ button {
 }
 
 .container {
+    background-color: #ffffff;
     max-width: 1120px;
     margin: 0 auto;
     padding: 0 5%;

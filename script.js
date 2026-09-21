@@ -18,13 +18,3 @@ menuLinks.forEach((link) => {
     });
 });
 
-const updateOverscrollBackground = () => {
-    const documentBottom = document.documentElement.scrollHeight - window.innerHeight;
-    const isAtBottom = window.scrollY >= documentBottom - 1;
-
-    document.documentElement.classList.toggle('footer-overscroll', isAtBottom);
-};
-
-window.addEventListener('scroll', updateOverscrollBackground, { passive: true });
-window.addEventListener('resize', updateOverscrollBackground);
-updateOverscrollBackground();
